@@ -1,5 +1,7 @@
 FROM python:3.9-alpine3.13
 
+WORKDIR /opt/python-api
+
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
