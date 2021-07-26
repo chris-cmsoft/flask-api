@@ -4,5 +4,5 @@
 
 - [ ] Multi stage docker builds
 - [ ] Push image to registries
-- [ ] Local docker-compose for active development
+- [x] Local docker-compose for active development
 - [ ] Kubernetes manifests
