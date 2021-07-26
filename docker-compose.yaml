@@ -7,3 +7,11 @@ services:
       - "5000:5000"
     volumes:
       - ./:/opt/python-api
+  tests:
+    build:
+      context: .
+      target: local
+    command: [ "ptw" ]
+    volumes:
+      - ./:/opt/python-api
+
