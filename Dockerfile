@@ -7,4 +7,4 @@ COPY . .
 
 RUN pip install --no-cache-dir gunicorn
 
-CMD [ "gunicorn", "main:app", "--bind", "0.0.0.0:5000" ]
+CMD [ "gunicorn", "main:app", "--bind", "0.0.0.0:5000", "--reload" ]
